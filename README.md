@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Apex Architecture - Premium Qurilish Kompaniyasi
 
-## Getting Started
+Ushbu loyiha zamonaviy arxitektura va qurilish kompaniyasi uchun ishlab chiqilgan yuqori darajadagi web-sayt. Sayt Next.js, TypeScript va Tailwind CSS texnologiyalari asosida qurilgan bo'lib, to'liq statik rejimda (backend-siz) ishlaydi va GitHub Pages kabi platformalarga joylashtirishga moslashtirilgan.
 
-First, run the development server:
+## Xususiyatlar
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Premium Dizayn:** Zamonaviy, "glassmorphism" va nozik animatsiyalar bilan boyitilgan UI.
+- **Statik Eksport:** `next export` orqali to'liq statik HTML/CSS/JS fayllar yaratiladi.
+- **Responsive:** Barcha qurilmalarda (mobil, planshet, desktop) ideal ko'rinish.
+- **GitHub Actions:** Avtomatik joylashtirish (CI/CD) sozlamalari mavjud.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Texnologiyalar
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## O'rnatish va Ishga Tushirish
 
-## Learn More
+Loyihani lokal kompyuterda ishga tushirish uchun:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Repozitoriyni klonlash:**
+   ```bash
+   git clone https://github.com/sizning-username/Architecture-new.git
+   cd Architecture-new
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Kutubxonalarni o'rnatish:**
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. **Lokal serverni yoqish:**
+   ```bash
+   npm run dev
+   ```
+   Brauzerda `http://localhost:3000` manzilini oching.
 
-## Deploy on Vercel
+## Deploy (GitHub Pages)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ushbu loyiha GitHub Actions yordamida GitHub Pages ga avtomatik joylashishga sozlangan.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Loyihani GitHub ga yuklang (Push).
+2. GitHub repozitoriysida **Settings** -> **Pages** bo'limiga o'ting.
+3. **Build and deployment** bo'limida **Source** ni **GitHub Actions** ga o'zgartiring.
+4. Biroz kutib turing, Actions loyihani quradi va saytni e'lon qiladi.
+
+## Litsenziya
+
+MIT

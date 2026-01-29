@@ -61,7 +61,10 @@ a {
       rgba(15, 15, 15, 0.08) 1px,
       transparent 1px);
   background-size: 80px 80px;
-  opacity: 0.35;
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .grain {
